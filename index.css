@@ -1,54 +1,48 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-
 body{
-background-color: black;
+background: url(./pokefondo3.jpg);
+font-family: 'Silkscreen', cursive;
 }
 
-h1 {
+h1{
+    color: aliceblue;
     text-align: center;
-    margin-top: 50px;
-    color: yellow;
+}
+.inputs{
+    width: 200px;
+    margin: 20px;
+    align-items: center;
+    display: flex;
+    margin-left: 45%;
 }
 
-h2{
-    text-align: center;
-    justify-content: center;
-    color: yellow;
-}
-
-h3 {
-text-align: center;
-justify-content: center;
-color: yellow;
-}
-
-h4{
-    text-align: center;
-    justify-content: center;
-    color: yellow;
-    }
-
-h5 {
-      text-align: center;
-     justify-content: center;
-     color: yellow;
-}
-
-
-.contenedor {
+/* .contenedor {
     display: flex;
     margin-left: 45%;
     margin-top: 50px;
-}
+} */
 
 .boton {
-    color: yellow;
+    color: black;
     box-shadow: 5px;
+    text-shadow: 5px;
+    background-color: yellow;
+    margin-top: 1px;
+    margin-left: 3px;
 }
 
-.nombre{
-    text-align: center;
+.info-cards{
+position: relative;
+height: fit-content;
+max-width: 300px;
+border-radius: 5px;
+color: black;
+text-align: center;
+padding: 10px;
+margin: 0 auto;
+background-color: aliceblue;
+border: 1px solid black;
+}
+
+.foto{
+    size: 30px;
 }

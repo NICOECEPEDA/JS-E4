@@ -40,7 +40,7 @@ const buscarPokemones = async () => {
         const html =
       `
       <div> 
-      <div>
+      <div class="info-cards">
         <img class="foto" src="${data.sprites.front_default}"
         </div>
         <div class="nombre">
