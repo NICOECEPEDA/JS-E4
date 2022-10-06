@@ -41,18 +41,18 @@ const buscarPokemones = async () => {
       `
       <div> 
       <div class="info-cards">
-        <img class="foto" src="${data.sprites.front_default}"
+        <img src="${data.sprites.front_default}"
         </div>
-        <div class="nombre">
+        <div>
         <h2> Nombre: ${data.name} </h2>
         </div>
         <div class="tipo">
         <h3> Tipo: ${data.types[0].type.name} </h3>
         </div>
-        <div class="altura">
+        <div>
         <h4> Altura: ${data.height/10}m</h4>
         </div>
-        <div class="peso">
+        <div>
         <h5> Peso: ${data.weight/10}Kg</h5>
         </div>
        </div>

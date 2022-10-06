@@ -15,12 +15,6 @@ h1{
     margin-left: 45%;
 }
 
-/* .contenedor {
-    display: flex;
-    margin-left: 45%;
-    margin-top: 50px;
-} */
-
 .boton {
     color: black;
     box-shadow: 5px;
@@ -41,8 +35,4 @@ padding: 10px;
 margin: 0 auto;
 background-color: aliceblue;
 border: 1px solid black;
-}
-
-.foto{
-    size: 30px;
 }
